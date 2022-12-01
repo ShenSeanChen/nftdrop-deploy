@@ -6,7 +6,7 @@ function NFTDropPage() {
         {/* Left-side Screen */}
         <div className='lg:col-span-4 bg-gradient-to-br from-cyan-800 to-rose-500'>
             <div className='flex flex-col items-center justify-center py-2 lg:min-h-screen'>
-                <div className='bg-gradient-to-br from-yellow-400 to-purple-600 p-2 rounded-xl'>
+                <div className='mt-5 bg-gradient-to-br from-yellow-400 to-purple-600 p-2 rounded-xl'>
                     <img 
                     className='w-44 rounded-xl object-cover lg:h-96 lg:w-72'
                     src="https://links.papareact.com/8sg" alt="" />
@@ -38,6 +38,18 @@ function NFTDropPage() {
             <hr className='my-2 border border-rose-300'/>
 
             {/* Content */}
+            <div className='mt-10 flex flex-1 flex-col items-center space-y-6 text-center
+            lg:space-y-0 lg:justify-center'>
+                <img className='w-80 object-cover pb-10 lg:h-160' 
+                src="https://links.papareact.com/bdy" alt=""/>
+
+                <h1 className='text-3xl font-bold lg:text-3xl lg:front-extrabold'>
+                    The SEAN's Stories Fan Club | Whusssup NFT!
+                </h1>
+
+                <p className='pt-2 text-xl text-green-600'>13 / 21 SEAN's NFT Claimed </p>
+
+            </div>
 
             {/* Mint Button */}
         </div>
