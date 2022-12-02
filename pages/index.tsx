@@ -25,6 +25,11 @@ const Home: NextPage = () => {
         // Space out components b/w each other -> justify-between
         // use up as much room as possible in a flex box -> flex flex-1
         // add horizontal line: <hr />
+    // 5. thirdweb: docs.thirdweb.com/react
+        // -> npm install @thirdweb-dev/react @thirdweb-dev/sdk ethers
+        // Use thirdweb as a higher order component to wrap my entire app within a provider (just like redux)
+        // Anything inside the app can tap into what thirdweb has to offer
+        // Need to go back to our starting point -> _app.tsx
 
 
   return (

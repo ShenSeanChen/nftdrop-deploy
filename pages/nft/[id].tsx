@@ -1,6 +1,12 @@
 import React from 'react'
+import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
+
 
 function NFTDropPage() {
+
+  const address = useAddress();
+
+  
   return (
     <div className='flex h-screen flex-col lg:grid lg:grid-cols-10'>
         {/* Left-side Screen */}
@@ -38,20 +44,23 @@ function NFTDropPage() {
             <hr className='my-2 border border-rose-300'/>
 
             {/* Content */}
-            <div className='mt-10 flex flex-1 flex-col items-center space-y-6 text-center
+            <div className='mt-10 flex flex-1 flex-col items-center space-y-2 text-center
             lg:space-y-0 lg:justify-center'>
                 <img className='w-80 object-cover pb-10 lg:h-160' 
                 src="https://links.papareact.com/bdy" alt=""/>
 
-                <h1 className='text-3xl font-bold lg:text-3xl lg:front-extrabold'>
+                <h1 className='text-2xl font-bold lg:text-3xl lg:front-extrabold'>
                     The SEAN's Stories Fan Club | Whusssup NFT!
                 </h1>
 
-                <p className='pt-2 text-xl text-green-600'>13 / 21 SEAN's NFT Claimed </p>
+                <p className='pt-2 text-lg text-green-600'>13 / 21 SEAN's NFT Claimed </p>
 
             </div>
 
             {/* Mint Button */}
+            <button className='mt-5 h-16 bg-red-300 w-full text-white rounded-full text-center font-bold'>
+                Mint NFT (0.01 ETH)
+            </button>
         </div>
     </div>
   )
