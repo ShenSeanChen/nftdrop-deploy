@@ -9,7 +9,6 @@ const Home: NextPage = () => {
         // index.tsx is the home page; _app.tsx is the starting point
         // TailwindCSS is mobile first, meaning everything fits to the smallest screen first -> only applies to big screen sizes if we apply 'break points'
         // Exp for break points: className = "lg:h-96 lg:w-72" --> responsive design
-
   // 2. docs.thirdweb.com/react
   // 3. git remote -v --> check if the git repo is the right one. If not --> git remote remove origin
         // Use the create new branch option instead of adding to existing folder option when creating new repo
