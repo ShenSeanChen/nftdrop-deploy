@@ -6,8 +6,9 @@ import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     // <ThirdwebProvider desiredChainId={ChainId.Mainnet}> Eth main network
-    // test network -> can use fake eth to test transactions
-    <ThirdwebProvider desiredChainId={ChainId.Rinkeby}>
+    // test network -> can use fake eth to test transactions // ChainId.Rinkeby is deprecated...
+    <ThirdwebProvider desiredChainId={ChainId.Goerli}>
+      
       <Component {...pageProps} />
     </ThirdwebProvider>
   )

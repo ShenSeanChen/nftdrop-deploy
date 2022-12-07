@@ -25,7 +25,8 @@ const Home: NextPage = () => {
         // use up as much room as possible in a flex box -> flex flex-1
         // add horizontal line: <hr />
     // 5. thirdweb: docs.thirdweb.com/react
-        // -> npm install @thirdweb-dev/react @thirdweb-dev/sdk ethers
+        // -> yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
+        // Please only use yarn or only use npm, otherwise you might break vercel deployment
         // Use thirdweb as a higher order component to wrap my entire app within a provider (just like redux)
         // Anything inside the app can tap into what thirdweb has to offer
         // Need to go back to our starting point -> _app.tsx
