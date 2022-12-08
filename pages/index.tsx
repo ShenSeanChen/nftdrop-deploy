@@ -32,7 +32,10 @@ const Home: NextPage = () => {
         // Anything inside the app can tap into what thirdweb has to offer
         // Need to go back to our starting point -> _app.tsx
     // 6. add a .gitignore file to avoid oversized folders being pushed
-        // git rm --cached .next/ -r
+        // -> git rm --cached .next/ -r
+        // Check how far ahead of my branch, if I am 8 commits ahead then
+        // -> git reset HEAD~8
+        // https://stackoverflow.com/questions/68782039/how-to-push-a-big-nextjs-project-to-github 
 
 
   return (
