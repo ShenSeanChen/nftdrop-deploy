@@ -26,10 +26,13 @@ const Home: NextPage = () => {
         // add horizontal line: <hr />
     // 5. thirdweb: docs.thirdweb.com/react
         // -> yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers
-        // Please only use yarn or only use npm, otherwise you might break vercel deployment
+          // Please only use yarn or only use npm, otherwise you might break vercel deployment
+          // If shit happened, remove the packages with yarn remove xxx, and reinstall
         // Use thirdweb as a higher order component to wrap my entire app within a provider (just like redux)
         // Anything inside the app can tap into what thirdweb has to offer
         // Need to go back to our starting point -> _app.tsx
+    // 6. add a .gitignore file to avoid oversized folders being pushed
+        // git rm --cached .next/ -r
 
 
   return (
