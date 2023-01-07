@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, mkdir '/Users/shenseanchen/Desktop/Full-Stack-Deploy/nftDrop-Deploy/node_modules/@babel/helper-compilation-targets/node_modules/yallist'
+  Error: EACCES: permission denied, mkdir '/Users/shenseanchen/Desktop/Full-Stack-Deploy/nftDrop-Deploy/node_modules/@babel/helper-compilation-targets/node_modules/lru-cache'
 
 npm manifest: 
   {
