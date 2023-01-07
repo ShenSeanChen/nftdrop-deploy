@@ -36,6 +36,23 @@ const Home: NextPage = () => {
         // Check how far ahead of my branch, if I am 8 commits ahead then
         // -> git reset HEAD~8
         // https://stackoverflow.com/questions/68782039/how-to-push-a-big-nextjs-project-to-github 
+    // 7. Use Sanity Login
+        // -> sudo npm install @sanity/cli --location=global
+        // -> sanity login -> login with google
+        // -> sanity init --coupon sonny2022
+        // Project output path: (/Users/shenseanchen/Desktop/Full-Stack-Deploy/nftDrop-Deploy/nftseanchenio) -> type in sanity
+        // Choose Blog Schema
+        // Check your project at https://www.sanity.io/manage
+        // go to API on my dashboard on Sanity.io -> + Add API token -> Permission-Editor
+        // Create a .env.local file -> SANITY_API_TOKEN=my_key_from_sanity_API_token
+        // Add /sanity/node_modules to your .gitignore
+        // Go to Sanity folder 
+        // Create sanity.js: https://www.sanity.io/guides/sanity-nextjs-tailwindcss
+        // -> yarn add next-sanity @sanity/image-url
+        // Copy project id into sanity.js from the dashboard
+        // Put sanity_dataset to be production (you could add test dataset too if needed)
+        // -> cd sanity -> sanity build -> sanity start
+
 
 
   return (
